@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='w-full h-[90vh]'>
       <img
-        src='src/assets/backgroundHero.jpg'
+        src='src/assets/background.jpg'
         className='w-full h-full object-cover'
       />
       <div className='max-w-[1140px] m-auto'>
