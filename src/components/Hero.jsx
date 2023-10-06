@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className='font-bold text-4xl'>Bali Banyak Bulenya</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-            doloribus totam dicta ab ratione. Explicabo eveniet dolor, omnis in
+            doloribus totam dicta ab ratioe ne. Explicabo eveniet dolor, omnis in
             recusandae temporibus suscipit cum nihil officia deserunt possimus
             saepe praesentium accusamus!
           </p>
