@@ -4,6 +4,8 @@ import Hero from '../../components/Hero'
 import Activities from '../../components/Activity'
 import Gallery from '../../components/Gallery'
 import Footer from '../../components/Footer'
+import Course from '../../components/Course'
+
 
 const Landingpage = () => {
   return (
@@ -11,6 +13,7 @@ const Landingpage = () => {
     <Navbar/>
     <Hero/>
     <Activities/>
+    {/* <Course/> */}
     <Gallery/>
     <Footer/>
     </>
