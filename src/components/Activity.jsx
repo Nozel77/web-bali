@@ -7,11 +7,11 @@ const Activities = () => {
   const cards = [
     {
       title: 'history',
-      imageSrc: 'src/assets/budaya.jpg',
+      imageSrc: 'src/assets/sejarah.jpg',
     },
     {
       title: 'culture',
-      imageSrc: 'src/assets/sejarah.jpg',
+      imageSrc: 'src/assets/budaya.jpg',
     },
     {
       title: 'culinary',
@@ -19,11 +19,11 @@ const Activities = () => {
     },
     {
       title: 'tour',
-      imageSrc: 'src/assets/sejarah.jpg',
+      imageSrc: 'src/assets/wisata.jpg',
     },
     {
       title: 'economy',
-      imageSrc: 'src/assets/budaya.jpg',
+      imageSrc: 'src/assets/economy.jpg',
     },
   ];
 
