@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const Activities = () => {
-  // Menyusun data untuk card dan animasinya
   const cards = [
     {
       title: 'history',
@@ -27,7 +26,6 @@ const Activities = () => {
     },
   ];
 
-  // Properti variants untuk animasi
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1 },
