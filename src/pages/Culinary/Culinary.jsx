@@ -5,9 +5,8 @@ const Culinary = () => {
   return (
     <>
     <Navbar/>
-    <p className='text-center'>ini page culinary</p>
+    <p className='text-center mt-16 text-2xl font-bold'>Culinary</p>
     </>
-    
   )
 }
 
