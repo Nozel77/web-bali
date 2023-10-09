@@ -64,7 +64,7 @@ const Activities = () => {
           >
             {/* Tampilkan judul hanya pada card yang belum ditekan */}
             {openCard === null && <h3 className="absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">{card.title}</h3>}
-            <img className="w-full h-full object-cover relative border-4 border-white shadow-lg" src={card.imageSrc} alt={card.title} />
+            <img className="w-full h-full object-cover relative border-4 border-white shadow-lg rounded-sm" src={card.imageSrc} alt={card.title} />
           </motion.div>
         ))}
       </div>
@@ -83,7 +83,7 @@ const Activities = () => {
             {/* Tampilkan judul sesuai dengan card yang terbuka */}
             {openCard !== null && <h3 className="text-2xl font-bold text-center text-gray-900">{cards[openCard].title}</h3>}
             <motion.img
-              className="w-full max-h-[60vh] object-cover border-4 border-white shadow-lg"
+              className="w-full max-h-[60vh] object-cover border-4 border-white shadow-lg rounded-lg"
               src={cards[openCard].imageSrc}
               whileTap={{ scale: 0.9 }} // Mengurangi ukuran gambar saat card ditekan
             />
