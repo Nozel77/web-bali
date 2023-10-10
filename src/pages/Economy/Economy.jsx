@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
+import Ekonomi from '../../components/Ekonomi'
 
 const Economy = () => {
   return (
     <>
     <Navbar/>
-    <p className='text-center'>ini page economy</p>
+    <Ekonomi/>
     </>
     
   )

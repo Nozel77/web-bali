@@ -80,7 +80,7 @@ const Activities = () => {
               src={cards[openCard].imageSrc}
               whileTap={{ scale: 0.9 }}
             />
-            <Link to={`/${cards[openCard].title.toLowerCase()}`} className="block mt-4 text-center text-blue-500 underline">
+            <Link to={`/${cards[openCard].title.toLowerCase()}`} className="block mt-4 text-center text-blue-500 underline ">
               View More
             </Link>
           </motion.div>
