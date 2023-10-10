@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 
-
 const History = () => {
   return (
     <>
     <Navbar/>
-    <p>ini page history</p>
+    <p className='text-center mt-16 text-2xl font-bold '>history</p>
     </>
     
   )
