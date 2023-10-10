@@ -63,42 +63,26 @@ const Activities = () => {
       </div>
 
       {openCard !== null && (
-  <motion.div
-    ref={overlayRef}
-    className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    onClick={handleOverlayClick}
-  >
-    <motion.div className="relative p-4 bg-white rounded-md max-w-[80%] mx-auto" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.9 }}>
-      {openCard !== null && (
-        <>
-          <button
-            className="absolute top-0 right-0 p-2 hover:bg-red-600 hover:text-white text-white bg-red-500 mr-5 mt-3 h-10 w-12 rounded-lg"
-            onClick={closeCard}
-          >
-            X
-          </button>
-          <div
-            className="w-full h-full absolute top-0 left-0"
-            style={{ zIndex: -1 }}
-          ></div> {/* Ini adalah elemen dengan latar belakang merah */}
-          <h3 className="text-2xl font-bold text-left ml-2 text-gray-900 mb-3">
-            {cards[openCard].title}
-          </h3>
-          <motion.img
-            className="w-full max-h-[60vh] object-cover border-4 border-white shadow-lg rounded-lg"
-            src={cards[openCard].imageSrc}
-            whileTap={{ scale: 0.9 }}
-          />
-          <Link to={`/${cards[openCard].title.toLowerCase()}`} className="block mt-4 text-center rounded-lg text-white bg-blue-500 p-2 w-2/12 mx-auto">
-            View More
-          </Link>
-        </>
-      )}
-    </motion.div>
-  </motion.div>
+        <motion.div
+          ref={overlayRef}
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={handleOverlayClick} 
+        >
+          <motion.div className="relative p-4 bg-white rounded-md max-w-[80%] mx-auto" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.9 }}>
+            {openCard !== null && <h3 className="text-2xl font-bold text-center text-gray-900">{cards[openCard].title}</h3>}
+            <motion.img
+              className="w-full max-h-[60vh] object-cover border-4 border-white shadow-lg rounded-lg"
+              src={cards[openCard].imageSrc}
+              whileTap={{ scale: 0.9 }}
+            />
+            <Link to={`/${cards[openCard].title.toLowerCase()}`} className="block mt-4 text-center text-blue-500 underline ">
+              View More
+            </Link>
+          </motion.div>
+        </motion.div>
       )}
     </>
   );
