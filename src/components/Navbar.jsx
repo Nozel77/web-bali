@@ -18,7 +18,7 @@ function Navbar() {
   }
 
   return (
-    <Disclosure as="nav" className="bg-white fixed top-0 w-full z-50">
+    <Disclosure as="nav" className="bg-white shadow-md fixed top-0 w-full z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
