@@ -5,6 +5,7 @@ import Searchbar from '../culinary/SearchBar'
 import RecipeCard from '../culinary/RecipeCard'
 import { fetchRecipes } from '../../assets/culinary/utils/index'
 import Button from '../culinary/Button'
+import RecipeItems from './RecipeItems'
 
 const Recipes = () => {
     const [recipes, setRecipes] = useState([])
@@ -87,6 +88,7 @@ const Recipes = () => {
                     </>
                 ) : <div className='text-white w-full items-center justify-center py-10'>
                     <p className='text-center'>No Recipe Found</p>
+                    <RecipeItems/>
                 </div>
             }
         </div>
