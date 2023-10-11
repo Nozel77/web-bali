@@ -1,13 +1,29 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
+import {Routes, Route, Outlet} from 'react-router-dom'
+import Home from "../Culinary/Home";
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import RecipeDetail from '../Culinary/RecipesDetails';
 
-const Culinary = () => {
+function Layout(){
   return (
     <>
-    <Navbar/>
-    <p className='text-center mt-16 text-2xl font-bold'>Culinary</p>
+      <Navbar/>
+        <Outlet/>
+      <Footer/>
     </>
   )
 }
+function App() {
+  return (
+    <div className='bg-black'>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='recipes/:id' element={<RecipeDetail />} />
+        </Route>
+      </Routes>
+    </div>
+  );
+}
 
-export default Culinary
+export default App;
