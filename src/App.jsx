@@ -6,11 +6,13 @@ import Culture from './pages/Culture/Culture';
 import Economy from './pages/Economy/Economy';
 import Tour from './pages/Tour/Tour';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Landingpage />} />
           <Route exact path="/history" element={<History />} />
