@@ -13,7 +13,6 @@ const Landingpage = () => {
       <Activities />
       <Gallery />
       <Footer />
-      {/* <Swiper/> */}
     </>
   );
 };

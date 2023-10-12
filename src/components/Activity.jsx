@@ -94,6 +94,7 @@ const Activities = () => {
           <Link to={`/${cards[openCard].title.toLowerCase()}`} className="block mt-4 text-center text-white bg-blue-500 w-36 p-2 mx-auto rounded-lg">
             View More
           </Link>
+          
         </>
       )}
     </motion.div>
