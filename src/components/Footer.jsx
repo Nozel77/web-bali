@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 p-10 bg-gray-600 text-white">
+      <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 p-10 bg-white text-[#374151]">
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
