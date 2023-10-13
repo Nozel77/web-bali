@@ -15,7 +15,7 @@ function Layout(){
 }
 function App() {
   return (
-    <div className='bg-black'>
+    <div className='bg-[#252525]'>
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
