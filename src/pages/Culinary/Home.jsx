@@ -8,7 +8,7 @@ const Home = () => {
     <main className='w-full flex flex-col'>
       <Header
         title={
-          <p className='text-white'>
+          <p className='text-white drop-shadow-lg'>
             Beragam Kuliner Khas 
             <br /> Bali!
           </p>

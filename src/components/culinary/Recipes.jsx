@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BiSearchAlt2 } from 'react-icons/bi'
 import Loading from '../culinary/Loading'
-import Searchbar from '../culinary/SearchBar'
 import RecipeCard from '../culinary/RecipeCard'
 import { fetchRecipes } from '../../assets/culinary/utils/index'
 import Button from '../culinary/Button'
@@ -31,11 +29,6 @@ const Recipes = () => {
         }
     }
 
-    const handleSearchedRecipe = async (e) => {
-        e.preventDefault()
-        fetchRecipe()
-    }
-
     const showMore = () => {
         setLimit(prev => prev + 10)
         fetchRecipe()
@@ -55,18 +48,6 @@ const Recipes = () => {
     }
     return (
         <div className='w-full'>
-            <div className='w-full flex items-center justify-center pt-10 pb-5 px-0 md:px-10'>
-                <form className='w-full lg:w-2/4' onSubmit={handleSearchedRecipe}>
-                    <Searchbar placeholder="eg. Cake, Vegan, Chicken"
-                        handleInputChange={handleChange}
-                        rightIcon={
-                            <BiSearchAlt2 className='text-gray-600' onClick={handleSearchedRecipe} />
-                        }
-                    />
-                </form>
-
-            </div>
-
             {
                 recipes?.length > 0 ? (
                     <>
@@ -87,7 +68,6 @@ const Recipes = () => {
                         </div>
                     </>
                 ) : <div className='text-white w-full items-center justify-center py-10'>
-                    <p className='text-center'>No Recipe Found</p>
                     <RecipeItems/>
                 </div>
             }
