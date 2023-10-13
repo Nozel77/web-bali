@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Bali1 from "../assets/sejarah.jpg";
 import Bali2 from "../assets/budaya.jpg";
+import {
+  BsFacebook,
+  BsInstagram,
+  BsTwitter,
+  BsPinterest,
+} from "react-icons/bs";
 
 const Ekonomi2 = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="bg-white">
       <div>
         <img
           className="h-96 w-full object-cover "
-          src="src/assets/background.jpg"
+          src="src/assets/economy.jpg"
         />
-        <div className="absolute top-48 text-white text-left px-8">
+        {/* <div className="absolute top-48 text-white text-left px-8">
           <h1 className="text-2xl font-bold">Bali Banyak Bulenya</h1>
           <p className="text-md md:w-7/12  ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
@@ -18,7 +32,7 @@ const Ekonomi2 = () => {
             in recusandae temporibus suscipit cum nihil officia deserunt
             possimus saepe praesentium accusamus!
           </p>
-        </div>
+        </div> */}
       </div>
       <div>
         <div>
@@ -29,56 +43,70 @@ const Ekonomi2 = () => {
             LAPORAN PEREKONOMIAN PROVINSI BALI FEBRUARI 2022
           </h2>
         </div>
-        <div className="flex l flex-col-reverse lg:flex-row lg:mt-14">
+        
+        <div className="mt-3 flex l flex-col-reverse lg:flex-row lg:mt-14">
           <div className="px-7 lg:w-11/12">
-            <h2 className="w-11/12 text-sm font-bold mt-6 lg:text-2xl">
+            <h2
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="text-gray-700 w-11/12 text-sm font-bold mt-6 lg:text-2xl"
+            >
               PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
             </h2>
-            <p className="mt-1 lg:text-md">
+            <p data-aos="zoom-in-left" className="mt-1 lg:text-md">
               Momentum perbaikan ekonomi Bali berlanjut pada triwulan IV 2021.
-              Ekonomi Bali tumbuh sebesar 0,51% (yoy), lebih tinggi dibandingkan
-              kinerja triwulan sebelumnya yang terkontraksi -2,91% (yoy).
-              Perbaikan tersebut sejalan dengan proses pemulihan aktivitas
-              ekonomi domestik yang tercermin pada peningkatan mobilitas
-              masyarakat pasca pelonggaran kebijakan Pemberlakuan Pembatasan
-              Kegiatan Masyarakat (PPKM) dan penyelenggaraan beberapa event
-              internasional di akhir tahun. Dari sisi pengeluaran, membaiknya
-              pertumbuhan ekonomi terutama bersumber dari kinerja konsumsi rumah
-              tangga (RT) dan ekspor luar negeri. Sementara itu, dari sisi
-              lapangan usaha (LU), perbaikan ekonomi Bali didorong oleh
-              perbaikan beberapa kinerja LU utama (Akmamin, Pertanian,
-              Perdagangan, Industri Pengolahan, dan Transportasi).
+              Ekonomi Bali tumbuh sebesar 0,51% , lebih tinggi dibandingkan
+              kinerja triwulan sebelumnya yang terkontraksi -2,91% . Kegiatan
+              Masyarakat dan penyelenggaraan beberapa event internasional di
+              akhir tahun. Dari sisi pengeluaran, membaiknya pertumbuhan ekonomi
+              terutama bersumber dari kinerja konsumsi rumah tangga dan ekspor
+              luar negeri. Sementara itu, dari sisi lapangan usaha , perbaikan
+              ekonomi Bali didorong oleh perbaikan beberapa kinerja LU utama
             </p>
-            <p className="mt-1 lg:text-md">
+            <p
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="mt-1 lg:text-md"
+            >
               Secara keseluruhan 2021, kinerja perekonomian Bali membaik
               meskipun masih tertahan di tengah berlanjutnya pandemi COVID-19.
               Perbaikan tidak terlepas dari pelaksanaan program vaksinasi yang
               berjalan on-track, serta perbaikan aktivitas pariwisata yang
-              didorong oleh wisatawan nusantara. Di sisi lain, tertahannya
-              kinerja perekonomian Bali tidak terlepas dari masih terbatasnya
-              kunjungan wisatawan mancanegara sebagai dampak dari kebijakan
-              travel restriction.
+              didorong oleh wisatawan nusantara.
             </p>
           </div>
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
             <img
-              className="mx-auto my-3 w-10/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
+              className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
               src={Bali1}
               alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
             />
             <img
-              className="mx-auto w-10/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
+              className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
               src={Bali2}
               alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
             />
           </div>
         </div>
-        <div className="flex l flex-col-reverse lg:flex-row-reverse lg:mt-16">
+
+        <div className="mt-5 py-7 bg-gray-800 flex l flex-col-reverse lg:flex-row-reverse lg:mt-16 lg:py-9">
           <div className="px-7 lg:w-11/12">
-            <h2 className="w-11/12 text-sm font-bold mt-6 lg:text-2xl">
+            <h2
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="text-white w-11/12 text-sm font-bold mt-6 lg:text-2xl"
+            >
               PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
             </h2>
-            <p className="mt-1 lg:text-md">
+            <p
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="text-white mt-1 lg:text-md"
+            >
               Realisasi belanja dan transfer pemerintah (APBD dan APBN) di Bali
               selama tahun 2021 tercatat sebesar Rp35,42 triliun, tumbuh 1,52%
               dibandingkan dengan tahun sebelumnya, terutama berasal dari
@@ -94,15 +122,250 @@ const Ekonomi2 = () => {
           </div>
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-5">
             <img
-              className="mx-auto my-3 w-10/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
+              className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
               src={Bali1}
               alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
             />
             <img
-              className="mx-auto w-10/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
+              className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
               src={Bali2}
               alt="img"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
             />
+          </div>
+        </div>
+
+        <div className="mt-5 flex l flex-col-reverse lg:flex-row lg:mt-14">
+          <div className="px-7 lg:w-11/12">
+            <h2
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="text-gray-700 w-11/12 text-sm font-bold mt-6 lg:text-2xl"
+            >
+              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+            </h2>
+            <p
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="mt-1 lg:text-md"
+            >
+              Momentum perbaikan ekonomi Bali berlanjut pada triwulan IV 2021.
+              Ekonomi Bali tumbuh sebesar 0,51% (yoy), lebih tinggi dibandingkan
+              kinerja triwulan sebelumnya yang terkontraksi -2,91% (yoy).
+              Perbaikan tersebut sejalan dengan proses pemulihan aktivitas
+              ekonomi domestik yang tercermin pada peningkatan mobilitas
+              masyarakat pasca pelonggaran kebijakan Pemberlakuan Pembatasan
+              Kegiatan Masyarakat (PPKM) dan penyelenggaraan beberapa event
+              internasional di akhir tahun. Dari sisi pengeluaran, membaiknya
+              pertumbuhan ekonomi terutama bersumber dari kinerja konsumsi rumah
+              tangga (RT) dan ekspor luar negeri. Sementara itu, dari sisi
+              lapangan usaha (LU), perbaikan ekonomi Bali didorong oleh
+              perbaikan beberapa kinerja LU utama (Akmamin, Pertanian,
+              Perdagangan, Industri Pengolahan, dan Transportasi).
+            </p>
+            <p
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="mt-1 lg:text-md"
+            >
+              Secara keseluruhan 2021, kinerja perekonomian Bali membaik
+              meskipun masih tertahan di tengah berlanjutnya pandemi COVID-19.
+              Perbaikan tidak terlepas dari pelaksanaan program vaksinasi yang
+              berjalan on-track, serta perbaikan aktivitas pariwisata yang
+              didorong oleh wisatawan nusantara. Di sisi lain, tertahannya
+              kinerja perekonomian Bali tidak terlepas dari masih terbatasnya
+              kunjungan wisatawan mancanegara sebagai dampak dari kebijakan
+              travel restriction.
+            </p>
+          </div>
+          <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
+            <img
+              className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
+              src={Bali1}
+              alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            />
+            <img
+              className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
+              src={Bali2}
+              alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            />
+          </div>
+        </div>
+
+        <div className="mt-5 py-7 bg-gray-800 flex l flex-col-reverse lg:flex-row-reverse lg:mt-16 lg:py-9">
+          <div className="px-7 lg:w-11/12">
+            <h2
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="text-white w-11/12 text-sm font-bold mt-6 lg:text-2xl"
+            >
+              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+            </h2>
+            <p
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="text-white mt-1 lg:text-md"
+            >
+              Realisasi belanja dan transfer pemerintah (APBD dan APBN) di Bali
+              selama tahun 2021 tercatat sebesar Rp35,42 triliun, tumbuh 1,52%
+              dibandingkan dengan tahun sebelumnya, terutama berasal dari
+              realisasi belanja modal APBN. Sementara realisasi belanja dan
+              transfer pada kategori APBD masih terbatas, terutama tidak
+              terlepas dari kebijakan PPKM pada beberapa periode selama tahun
+              2021 yang menyebabkan penundaan sejumlah kegiatan Pemerintah
+              Daerah. Di sisi lain, realisasi pendapatan daerah se-Bali secara
+              agregat masih mengalami kontraksi, yang diakibatkan oleh masih
+              terbatasnya serapan sebagian besar komponen pajak dan retribusi,
+              khususnya komponen yang berhubungan dengan LU terkait pariwisata.
+            </p>
+          </div>
+          <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-5">
+            <img
+              className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
+              src={Bali1}
+              alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            />
+            <img
+              className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
+              src={Bali2}
+              alt="img"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+            />
+          </div>
+        </div>
+
+        <div className="mt-5 flex l flex-col-reverse lg:flex-row lg:mt-14">
+          <div className="px-7 lg:w-11/12">
+            <h2
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="text-gray-700 w-11/12 text-sm font-bold mt-6 lg:text-2xl"
+            >
+              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+            </h2>
+            <p
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="mt-1 lg:text-md"
+            >
+              Momentum perbaikan ekonomi Bali berlanjut pada triwulan IV 2021.
+              Ekonomi Bali tumbuh sebesar 0,51% (yoy), lebih tinggi dibandingkan
+              kinerja triwulan sebelumnya yang terkontraksi -2,91% (yoy).
+              Perbaikan tersebut sejalan dengan proses pemulihan aktivitas
+              ekonomi domestik yang tercermin pada peningkatan mobilitas
+              masyarakat pasca pelonggaran kebijakan Pemberlakuan Pembatasan
+              Kegiatan Masyarakat (PPKM) dan penyelenggaraan beberapa event
+              internasional di akhir tahun. Dari sisi pengeluaran, membaiknya
+              pertumbuhan ekonomi terutama bersumber dari kinerja konsumsi rumah
+              tangga (RT) dan ekspor luar negeri. Sementara itu, dari sisi
+              lapangan usaha (LU), perbaikan ekonomi Bali didorong oleh
+              perbaikan beberapa kinerja LU utama (Akmamin, Pertanian,
+              Perdagangan, Industri Pengolahan, dan Transportasi).
+            </p>
+            <p
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="mt-1 lg:text-md"
+            >
+              Secara keseluruhan 2021, kinerja perekonomian Bali membaik
+              meskipun masih tertahan di tengah berlanjutnya pandemi COVID-19.
+              Perbaikan tidak terlepas dari pelaksanaan program vaksinasi yang
+              berjalan on-track, serta perbaikan aktivitas pariwisata yang
+              didorong oleh wisatawan nusantara. Di sisi lain, tertahannya
+              kinerja perekonomian Bali tidak terlepas dari masih terbatasnya
+              kunjungan wisatawan mancanegara sebagai dampak dari kebijakan
+              travel restriction.
+            </p>
+          </div>
+          <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
+            <img
+              className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
+              src={Bali1}
+              alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            />
+            <img
+              className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
+              src={Bali2}
+              alt="img"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            />
+          </div>
+        </div>
+
+        <div className="mt-11 grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 p-10 bg-gray-600 text-white">
+          <div>
+            <div className="font-bold mb-6">Get Started</div>
+            <p className="text-sm leading-7">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+              neque saepe cumque. Veritatis sunt commodi
+            </p>
+          </div>
+          <div>
+            <div className="font-bold mb-6">Services</div>
+            <div className="flex flex-col gap-4">
+              <a href="" className="text-sm hover:underline">
+                Web Design
+              </a>
+              <a href="" className="text-sm hover:underline">
+                Web Development
+              </a>
+              <a href="" className="text-sm hover:underline">
+                {" "}
+                Science
+              </a>
+              <a href="" className="text-sm hover:underline">
+                Digital Marketing
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="font-bold mb-6">Company</div>
+            <div className="flex flex-col gap-4">
+              <a href="" className="text-sm hover:underline">
+                Privacy Policy
+              </a>
+              <a href="" className="text-sm hover:underline">
+                Sitemap
+              </a>
+              <a href="" className="text-sm hover:underline">
+                Careers
+              </a>
+              <a href="" className="text-sm hover:underline">
+                Terms & Conditions
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="font-bold mb-6">Follow us</div>
+            <div className="text-sm mb-4">skillexlearning@gmail.com</div>
+            <div className="text-sm">+959883271929</div>
+            <div className="flex gap-4 mt-4">
+              <a href="" className="hover:scale-110 text-xl">
+                <BsFacebook />
+              </a>
+              <a href="" className="hover:scale-110 text-xl">
+                <BsInstagram />
+              </a>
+              <a href="" className="hover:scale-110 text-xl">
+                <BsTwitter />
+              </a>
+              <a href="" className="hover:scale-110 text-xl">
+                <BsPinterest />
+              </a>
+            </div>
           </div>
         </div>
       </div>
