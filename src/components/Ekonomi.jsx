@@ -44,7 +44,7 @@ const Ekonomi2 = () => {
           </h2>
         </div>
 
-        <div className="mt-3 flex l flex-col-reverse lg:flex-row lg:mt-14">
+        <div className="mt-3 flex flex-col-reverse lg:flex-row lg:mt-14">
           <div className="px-7 lg:w-11/12">
             <h2
               data-aos="zoom-in-left"
