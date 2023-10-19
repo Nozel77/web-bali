@@ -5,19 +5,19 @@ const Question = () => {
   const accordions = [
     {
       id: 1,
-      title: 'What is Skillex?',
+      title: 'Asal Usul Bali?',
     },
     {
       id: 2,
-      title: 'What can I learn from Skillex?',
+      title: 'Kenapa Bali bisa ada?',
     },
     {
       id: 3,
-      title: 'Can I teach on Skillex?',
+      title: 'Kenapa Bali banyak bulenya?',
     },
     {
       id: 4,
-      title: 'What is included in my Skillex membership?',
+      title: 'Bagaimana keadaan di Bali saat ini?',
     },
   ];
   return (
@@ -25,7 +25,7 @@ const Question = () => {
       <div className="text-center my-8 font-bold sm:text-[1.875rem]  text-[1.5rem]">
         Frequently <span className="text-Teal">Asked Questions</span>
       </div>
-      <div className="mt-12 max-w-[700px] ml-3 md:ml-10 lg:mx-auto">
+      <div className="mt-12 max-w-[700px] ml-3 md:ml-10 lg:mx-auto mb-20">
         {accordions.map((accordion) => {
           return <Accordion key={accordion.id} {...accordion} />;
         })}
