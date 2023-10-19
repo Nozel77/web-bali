@@ -66,7 +66,7 @@ const Gallery = () => {
         ]
       };
   return (
-    <div id="gallery" className="max-w-[1140px] mt-60 m-auto w-full px-4 py-16">
+    <div id="gallery" className="max-w-[1140px] m-auto w-full px-4 py-16">
       <h2 className="text-center text-gray-700 p-4">Gallery</h2>
       <div>
           <div className="flex flex-col gap-4 ">
