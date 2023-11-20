@@ -3,12 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Bali1 from "../assets/sejarah.jpg";
 import Bali2 from "../assets/budaya.jpg";
-import {
-  BsFacebook,
-  BsInstagram,
-  BsTwitter,
-  BsPinterest,
-} from "react-icons/bs";
 
 const Ekonomi2 = () => {
   useEffect(() => {
@@ -100,7 +94,7 @@ const Ekonomi2 = () => {
               data-aos-duration="1000"
               className="text-white w-11/12 text-sm font-bold mt-6 lg:text-2xl"
             >
-              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+              PERKEMBANGAN KEUANGAN PEMERINTAH
             </h2>
             <p
               data-aos="zoom-in-right"
@@ -145,40 +139,28 @@ const Ekonomi2 = () => {
               data-aos-duration="1000"
               className="text-gray-700 w-11/12 text-sm font-bold mt-6 lg:text-2xl"
             >
-              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+              PERKEMBANGAN INFLASI
             </h2>
             <p
               data-aos="zoom-in-left"
               data-aos-duration="1000"
               className="mt-1 lg:text-md"
             >
-              Momentum perbaikan ekonomi Bali berlanjut pada triwulan IV 2021.
-              Ekonomi Bali tumbuh sebesar 0,51% (yoy), lebih tinggi dibandingkan
-              kinerja triwulan sebelumnya yang terkontraksi -2,91% (yoy).
-              Perbaikan tersebut sejalan dengan proses pemulihan aktivitas
-              ekonomi domestik yang tercermin pada peningkatan mobilitas
-              masyarakat pasca pelonggaran kebijakan Pemberlakuan Pembatasan
-              Kegiatan Masyarakat (PPKM) dan penyelenggaraan beberapa event
-              internasional di akhir tahun. Dari sisi pengeluaran, membaiknya
-              pertumbuhan ekonomi terutama bersumber dari kinerja konsumsi rumah
-              tangga (RT) dan ekspor luar negeri. Sementara itu, dari sisi
-              lapangan usaha (LU), perbaikan ekonomi Bali didorong oleh
-              perbaikan beberapa kinerja LU utama (Akmamin, Pertanian,
-              Perdagangan, Industri Pengolahan, dan Transportasi).
-            </p>
-            <p
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
-              className="mt-1 lg:text-md"
-            >
-              Secara keseluruhan 2021, kinerja perekonomian Bali membaik
-              meskipun masih tertahan di tengah berlanjutnya pandemi COVID-19.
-              Perbaikan tidak terlepas dari pelaksanaan program vaksinasi yang
-              berjalan on-track, serta perbaikan aktivitas pariwisata yang
-              didorong oleh wisatawan nusantara. Di sisi lain, tertahannya
-              kinerja perekonomian Bali tidak terlepas dari masih terbatasnya
-              kunjungan wisatawan mancanegara sebagai dampak dari kebijakan
-              travel restriction.
+              Realisasi inflasi Provinsi Bali pada triwulan IV 2021 tercatat
+              sebesar 2,07% (yoy), lebih tinggi dibandingkan realisasi inflasi
+              triwulan III 2021 yang tercatat 1,40% (yoy). Kondisi ini
+              disebabkan oleh meningkatnya tekanan harga di sebagian besar
+              kelompok barang. Lebih lanjut, realisasi inflasi tersebut juga
+              lebih tinggi dibandingkan dengan realisasi inflasi Nasional pada
+              periode yang sama (1,87%; yoy). Selanjutnya, peningkatan tekanan
+              harga pada triwulan I 2022 diprakirakan menurun dibandingkan
+              kondisi pada triwulan IV 2021. Hal ini didorong oleh normalisasi
+              permintaan pasca Natal dan Tahun Baru, kebijakan pembatalan
+              pelarangan penjualan minyak goreng curah dan peningkatan pasokan
+              akibat panen raya pada beberapa komoditas hortikultura. Tim
+              Pengendalian Inflasi Daerah (TPID) tingkat provinsi maupun
+              kabupaten/kota di Bali akan terus mengawal pergerakan harga
+              sehingga inflasi tetap terkendali.
             </p>
           </div>
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
@@ -206,24 +188,25 @@ const Ekonomi2 = () => {
               data-aos-duration="1000"
               className="text-white w-11/12 text-sm font-bold mt-6 lg:text-2xl"
             >
-              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+              PERKEMBANGAN STABILITAS SISTEM KEUANGAN
             </h2>
             <p
               data-aos="zoom-in-right"
               data-aos-duration="1000"
               className="text-white mt-1 lg:text-md"
             >
-              Realisasi belanja dan transfer pemerintah (APBD dan APBN) di Bali
-              selama tahun 2021 tercatat sebesar Rp35,42 triliun, tumbuh 1,52%
-              dibandingkan dengan tahun sebelumnya, terutama berasal dari
-              realisasi belanja modal APBN. Sementara realisasi belanja dan
-              transfer pada kategori APBD masih terbatas, terutama tidak
-              terlepas dari kebijakan PPKM pada beberapa periode selama tahun
-              2021 yang menyebabkan penundaan sejumlah kegiatan Pemerintah
-              Daerah. Di sisi lain, realisasi pendapatan daerah se-Bali secara
-              agregat masih mengalami kontraksi, yang diakibatkan oleh masih
-              terbatasnya serapan sebagian besar komponen pajak dan retribusi,
-              khususnya komponen yang berhubungan dengan LU terkait pariwisata.
+              Secara umum, kondisi stabilitas keuangan di Provinsi Bali pada
+              triwulan IV 2021 tetap terjaga di tengah momentum pertumbuhan
+              ekonomi yang mulai membaik. Jumlah penghimpunan Dana Pihak Ketiga
+              (DPK) maupun penyaluran Kredit tercatat mengalami akselerasi
+              sejalan dengan pertumbuhan ekonomi Provinsi Bali. Lebih lanjut,
+              kualitas kredit yang disalurkan perbankan terjaga pada level di
+              bawah ambang batas 5%. Program pemerintah dalam rangka
+              penanggulangan dan pemulihan ekonomi dari pandemi COVID-19 mampu
+              memitigasi risiko keuangan yang dapat mengganggu kestabilan sistem
+              keuangan dan makroekonomi. Di sisi lain, kinerja kredit UMKM juga
+              menunjukkan peningkatan dan turut berkontribusi dalam pertumbuhan
+              ekonomi pada triwulan laporan.
             </p>
           </div>
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-5">
@@ -251,40 +234,44 @@ const Ekonomi2 = () => {
               data-aos-duration="1000"
               className="text-gray-700 w-11/12 text-sm font-bold mt-6 lg:text-2xl"
             >
-              PERTUMBUHAN EKONOMI TRIWULAN IV 2021 DAN KESELURUHAN TAHUN 2021
+              PERKEMBANGAN SISTEM PEMBAYARAN
             </h2>
             <p
               data-aos="zoom-in-left"
               data-aos-duration="1000"
               className="mt-1 lg:text-md"
             >
-              Momentum perbaikan ekonomi Bali berlanjut pada triwulan IV 2021.
-              Ekonomi Bali tumbuh sebesar 0,51% (yoy), lebih tinggi dibandingkan
-              kinerja triwulan sebelumnya yang terkontraksi -2,91% (yoy).
-              Perbaikan tersebut sejalan dengan proses pemulihan aktivitas
-              ekonomi domestik yang tercermin pada peningkatan mobilitas
-              masyarakat pasca pelonggaran kebijakan Pemberlakuan Pembatasan
-              Kegiatan Masyarakat (PPKM) dan penyelenggaraan beberapa event
-              internasional di akhir tahun. Dari sisi pengeluaran, membaiknya
-              pertumbuhan ekonomi terutama bersumber dari kinerja konsumsi rumah
-              tangga (RT) dan ekspor luar negeri. Sementara itu, dari sisi
-              lapangan usaha (LU), perbaikan ekonomi Bali didorong oleh
-              perbaikan beberapa kinerja LU utama (Akmamin, Pertanian,
-              Perdagangan, Industri Pengolahan, dan Transportasi).
+              Sepanjang triwulan IV 2021 perkembangan indikator sistem
+              pembayaran di Provinsi Bali mengalami akselerasi sejalan dengan
+              membaiknya pertumbuhan ekonomi. Kinerja transaksi pada seluruh
+              kanal terkonfirmasi mengalami peningkatan didorong periode Hari
+              Besar Keagamaan Nasional (HBKN) Natal dan Tahun Baru 2022 serta
+              pelaksanaan sejumlah event nasional maupun internasional yang
+              dilaksanakan di Provinsi Bali. Selain itu, jumlah transaksi
+              digital meningkat tercermin dari peningkatan transaksi Uang
+              Elektronik (UE) dan transaksi online kartu ATM/Debit,
+              mengonfirmasi adanya pergeseran kebiasaan konsumen ke arah
+              digital. Di sisi lain, aliran uang kartal perbankan di Provinsi
+              Bali pada triwulan IV 2021 mengalami net outflow sebesar Rp2,30
+              triliun, meningkat dibandingkan triwulan sebelumnya yang
+              mengindikasikan tren peningkatan kebutuhan uang kartal pada
+              triwulan IV 2021.
             </p>
             <p
               data-aos="zoom-in-left"
               data-aos-duration="1000"
               className="mt-1 lg:text-md"
             >
-              Secara keseluruhan 2021, kinerja perekonomian Bali membaik
-              meskipun masih tertahan di tengah berlanjutnya pandemi COVID-19.
-              Perbaikan tidak terlepas dari pelaksanaan program vaksinasi yang
-              berjalan on-track, serta perbaikan aktivitas pariwisata yang
-              didorong oleh wisatawan nusantara. Di sisi lain, tertahannya
-              kinerja perekonomian Bali tidak terlepas dari masih terbatasnya
-              kunjungan wisatawan mancanegara sebagai dampak dari kebijakan
-              travel restriction.
+              Kantor Perwakilan Bank Indonesia (KPwBI) Provinsi Bali senantiasa
+              berupaya untuk menjaga kelancaran sistem pembayaran, diantaranya
+              melalui layanan kas yang berfokus pada pemenuhan likuiditas,
+              penerapan kebijakan clean money policy, dan upaya perluasan Sistem
+              Pembayaran (SP) nontunai berbasis QRIS yang bersifat
+              nirsentuh/contactless sebagai penyesuaian di masa pandemi
+              COVID-19. Upaya elektronifikasi juga kerap dilakukan melalui
+              kerjasama dengan Pemerintah Daerah dan stakeholders khususnya
+              terkait elektronifikasi transaksi pemda (ETP), elektronifikasi
+              transportasi, dan elektronifikasi bantuan sosial.
             </p>
           </div>
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
