@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { BsChevronDown } from "react-icons/bs";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState } from 'react';
+import { BsChevronDown } from 'react-icons/bs';
+import { motion, AnimatePresence } from 'framer-motion';
+import { answerr } from '../utils/Data';
 
 const Accordion = ({ id, title }) => {
   const answer = [
