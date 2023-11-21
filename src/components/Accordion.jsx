@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { BsChevronDown } from 'react-icons/bs';
 import { motion, AnimatePresence } from 'framer-motion';
+import { answerr } from '../utils/Data';
 
 const Accordion = ({ id, title }) => {
   const answer = [
     {
       id: 1,
-      title: 'Ini adalah jawaban untuk pertanyaan Asal Usul Bali.',
+      title: answerr,
     },
     {
       id: 2,

@@ -2,7 +2,7 @@ import React from "react";
 
 const Timeline = () => {
     return (
-        <div className=" w-full flex justify-center items-center mt-16">
+        <div className=" w-full flex justify-center items-center mt-16 shadow-lg">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
             {/* Stack 1 */}
             <div className="col-span-4 w-full h-full">
