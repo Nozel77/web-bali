@@ -72,19 +72,19 @@ const Gallery = () => {
           <div className="flex flex-col gap-4 ">
             <Slider {...settings}>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://www.goodnewsfromindonesia.id/uploads/post/large-balinese-people-traditional-clothes-during-religious-ceremony-pura-taman-ayun-temple-.jpg" alt="/" />
             </div>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://cdn.antaranews.com/cache/1200x800/2022/01/04/Barong-Bali-Unjuk-Gigi-ke-Pengunjung-Expo-2020-Dubai-di-Paviliun-ASEAN.jpg" alt="/" />
             </div>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/kenali-warisan-budaya-asli-bali-dengan-berkunjung-ke-desa-ini/ukiran.jpg" alt="/" />
             </div>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://bafageh.com/uploads/images/blog/79589_tirta.png" alt="/" />
             </div>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://markastravel.com/wp-content/uploads/2023/03/wisata-budaya-Bali.jpg" alt="/" />
             </div>
             </Slider>
           </div>
