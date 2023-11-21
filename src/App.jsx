@@ -6,6 +6,7 @@ import Culture from './pages/Culture/Culture';
 import Economy from './pages/Economy/Economy';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import Tour from './pages/Tour/Tour';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" element={<Landingpage />} />
           <Route exact path="/history" element={<History />} />
           <Route exact path="/culinary" element={<Culinary />} />
+          <Route exact path="/tour" element={<Tour />} />
           <Route exact path="/economy" element={<Economy />} />
           <Route exact path="/culture" element={<Culture />} />
         </Routes>

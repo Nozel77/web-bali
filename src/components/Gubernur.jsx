@@ -10,7 +10,7 @@ const Gubernur = () => {
   }, []);
   return (
     <>
-      <div className="mt-[90px]" data-aos="fade-up">
+      <div className="mt-[200px] " data-aos="fade-up">
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-col mx-auto pt-5" data-aos="fade-up">
             <h1 className="font-bold text-black text-2xl mb-5">Gubernur Bali</h1>

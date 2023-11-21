@@ -26,4 +26,4 @@ export const categories = [
     },
   ];
 
-   
+  export const answerr = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.";
