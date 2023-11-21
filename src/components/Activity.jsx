@@ -29,7 +29,7 @@ const Activities = () => {
     },
     {
       title: 'economy',
-      imageSrc: 'src/assets/economy.jpg',
+      imageSrc: 'https://bisnisbali.com/wp-content/uploads/2020/11/dik-foto-catatan-kaki.jpg',
     },
   ];
 
