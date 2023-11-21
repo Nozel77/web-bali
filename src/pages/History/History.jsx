@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar'
 
 const History = () => {
   return (
-    <div className='bg-[#ffffff]'>
+    <div className='bg-[#ffffff] mt-14'>
     <Navbar/>
     <Timeline/>
     <Footer/>
