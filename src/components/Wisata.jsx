@@ -56,14 +56,14 @@ const Wisata = () => {
           <div className="row-span-1 col-span-1">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali5}
+              src='https://lp-cms-production.imgix.net/2020-12/shutterstockRF_1270999795.jpg'
               alt=""
             />
           </div>
           <div className="row-span-1 col-span-1">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali6}
+              src='https://img.jakpost.net/c/2017/05/04/2017_05_04_26341_1493864360._large.jpg'
               alt=""
             />
           </div>
