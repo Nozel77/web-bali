@@ -4,6 +4,11 @@ import "aos/dist/aos.css";
 import Bali1 from "../assets/sejarah.jpg";
 import Bali2 from "../assets/budaya.jpg";
 
+import Bali3 from "../assets/woman.jpg";
+import Bali4 from "../assets/man.jpg";
+import Bali5 from "../assets/gajah.jpg";
+import Bali6 from "../assets/tari.jpg";
+
 const Ekonomi2 = () => {
   useEffect(() => {
     AOS.init({
@@ -117,14 +122,14 @@ const Ekonomi2 = () => {
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-5">
             <img
               className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
-              src={Bali1}
+              src={Bali3}
               alt="img"
               data-aos="zoom-in-left"
               data-aos-duration="1000"
             />
             <img
               className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
-              src={Bali2}
+              src={Bali5}
               alt="img"
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -166,14 +171,14 @@ const Ekonomi2 = () => {
           <div className="mt-2 lg:flex flex-row gap-8 lg:m-0 lg:ml-16 lg:mt-9">
             <img
               className="mx-auto my-3 w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 "
-              src={Bali1}
+              src={Bali4}
               alt="img"
               data-aos="zoom-in-left"
               data-aos-duration="1000"
             />
             <img
               className="mx-auto w-9/12 object-cover shadow-[-1px_1px_62px_-28px] rounded-md lg:w-5/12 lg:h-96 lg:mx-0 lg:my-3"
-              src={Bali2}
+              src={Bali6}
               alt="img"
               data-aos="zoom-in-left"
               data-aos-duration="1000"
@@ -181,7 +186,7 @@ const Ekonomi2 = () => {
           </div>
         </div>
 
-        <div className="mt-5 py-7 bg-gray-800 flex l flex-col-reverse lg:flex-row-reverse lg:mt-16 lg:py-9">
+        {/* <div className="mt-5 py-7 bg-gray-800 flex l flex-col-reverse lg:flex-row-reverse lg:mt-16 lg:py-9">
           <div className="px-7 lg:w-11/12">
             <h2
               data-aos="zoom-in-right"
@@ -290,7 +295,8 @@ const Ekonomi2 = () => {
               data-aos-duration="1000"
             />
           </div>
-        </div>
+        </div> */}
+
       </div>
     </div>
   );
