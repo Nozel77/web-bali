@@ -14,7 +14,7 @@ const Wisata = () => {
     <div className="bg-white">
       <img
         className="h-96 w-screen object-cover "
-        src="src/assets/economy.jpg"
+        src="https://www.triplyfe.id/uploads/10-destinasi-wisata-bali-yang-wajib-dikunjungi4.webp"
       />
       <div className="w-4/5 m-auto">
         <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
@@ -28,28 +28,28 @@ const Wisata = () => {
           <div className="row-span-1 col-span-2">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali1}
+              src="https://bafageh.com/uploads/images/blog/816432_bali-indonesia-2.jpg"
               alt=""
             />
           </div>
           <div className="row-span-1 col-span-1">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali2}
+              src="https://promotourasia.id/wp-content/uploads/2023/01/chaitanya-maheshwari-HBcnfuzCAPk-unsplash-1024x768.jpg"
               alt=""
             />
           </div>
           <div className="row-span-1 col-span-1">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali3}
+              src="https://gdb.voanews.com/D5C00B73-D617-4776-B33A-15F898C7774B_w1200_r1.jpg"
               alt=""
             />
           </div>
           <div className="row-span-2 col-span-1">
             <img
               className="w-full h-full object-cover rounded-md"
-              src={Bali4}
+              src="https://cdn.idntimes.com/content-images/post/20191007/70466328-193686788307387-3256296494570671457-n-49297b0741040cdd68e97a3a300394da.jpg"
               alt=""
             />
           </div>
@@ -73,7 +73,7 @@ const Wisata = () => {
           <div className="flex flex-col lg:flex-row lg:gap-24">
             <img
               className="rounded-lg w-[600px] mx-auto object-cover"
-              src={Bali8}
+              src="https://thumb.viva.co.id/media/frontend/thumbs3/2023/04/10/643395e1b3b9b-pantai-kuta-bali_1265_711.jpg"
               alt=""
             />
             <div className="lg:text-justify lg:w-5/12">
@@ -95,7 +95,7 @@ const Wisata = () => {
           <div className="flex flex-col lg:flex-row-reverse lg:gap-24 mt-16">
             <img
               className="rounded-lg w-[600px] mx-auto object-cover"
-              src={Bali7}
+              src="https://media.cntraveler.com/photos/5c1910eca546ef283d217248/16:9/w_2560,c_limit/GettyImages-692451760.jpg"
               alt=""
             />
             <div className="lg:text-justify lg:w-5/12">
@@ -109,9 +109,7 @@ const Wisata = () => {
                   <p className="mb-2">
                   Gunung Batur adalah gunung berapi aktif yang terletak di Kabupaten Bangli, Bali, Indonesia. Gunung ini memiliki ketinggian 1.717 meter di atas permukaan laut dan merupakan gunung berapi aktif terkecil di Bali.Gunung Batur memiliki kaldera yang luas, dengan diameter sekitar 10 kilometer. Di dalam kaldera tersebut terdapat Danau Batur, yang merupakan danau kaldera terbesar di Bali. Danau ini memiliki kedalaman sekitar 230 meter dan memiliki air yang berwarna biru jernih.
                   </p>
-                  <p>
-                  Gunung Batur merupakan salah satu destinasi wisata alam yang paling populer di Bali. Gunung ini menawarkan pemandangan yang menakjubkan, termasuk pemandangan kaldera, danau, dan pegunungan yang mengelilinginya. Gunung ini juga merupakan tempat yang populer untuk pendakian.
-                  </p>
+                  
                 </div>
               </div>
             </div>
