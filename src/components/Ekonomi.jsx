@@ -21,7 +21,7 @@ const Ekonomi2 = () => {
       <div>
         <img
           className="h-96 w-full object-cover "
-          src="src/assets/economy.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Besakih_Bali_Indonesia_Pura-Besakih-02.jpg/1200px-Besakih_Bali_Indonesia_Pura-Besakih-02.jpg"
         />
         {/* <div className="absolute top-48 text-white text-left px-8">
           <h1 className="text-2xl font-bold">Bali Banyak Bulenya</h1>
