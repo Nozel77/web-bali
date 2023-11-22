@@ -6,32 +6,36 @@ const RecipeItems = () => {
 
     const cards = [
         {
-            title: 'Ayam Betutu',
-            imageSrc: 'src/assets/culinary/ayambetutu.jpg',
-            description: 'Ayam Betutu adalah hidangan tradisional Bali yang terkenal. Ayam ini dibumbui dengan rempah-rempah khas Bali dan kemudian dipanggang atau direbus hingga empuk. Rasa rempah-rempah yang kaya membuat Ayam Betutu menjadi hidangan yang lezat dan khas Bali.',
+          title: 'Ayam Betutu',
+          imageSrc: 'https://awsimages.detik.net.id/community/media/visual/2021/10/26/ayam-betutu_169.jpeg?w=1200',
+          description:
+            'Ayam Betutu adalah hidangan tradisional Bali yang terkenal. Ayam ini dibumbui dengan rempah-rempah khas Bali dan kemudian dipanggang atau direbus hingga empuk. Rasa rempah-rempah yang kaya membuat Ayam Betutu menjadi hidangan yang lezat dan khas Bali.',
         },
         {
-            title: 'Sate Lilit',
-            imageSrc: 'src/assets/culinary/satelilit.jpg',
-            description: 'Sate Lilit adalah hidangan Bali yang unik. Daging, ikan, atau ayam cincang dicampur dengan kelapa parut, santan, dan rempah-rempah. Campuran ini lalu dibungkus di atas lidi atau batang serai, dan dipanggang hingga matang. Sate Lilit memiliki rasa yang khas dan tekstur yang lezat.',
+          title: 'Sate Lilit',
+          imageSrc: 'https://nnc-media.netralnews.com/IMG-Netral-News-User-31-F2APLYDG1T.jpg',
+          description:
+            'Sate Lilit adalah hidangan Bali yang unik. Daging, ikan, atau ayam cincang dicampur dengan kelapa parut, santan, dan rempah-rempah. Campuran ini lalu dibungkus di atas lidi atau batang serai, dan dipanggang hingga matang. Sate Lilit memiliki rasa yang khas dan tekstur yang lezat.',
         },
         {
-            title: 'Nasi Jinggo',
-            imageSrc: 'src/assets/culinary/nasijinggo.jpg',
-            description: 'Nasi Jinggo adalah hidangan khas dari Jawa Tengah. Ini adalah porsi nasi yang kecil namun lengkap, yang biasanya disajikan dengan lauk-pauk seperti ayam goreng, telur, sambal, dan tempe. Nasi Jinggo sangat populer di kawasan Jawa.',
+          title: 'Nasi Jinggo',
+          imageSrc: 'https://i.pinimg.com/originals/ce/7c/06/ce7c0665a46d63637c6798cf27faa30d.jpg',
+          description:
+            'Nasi Jinggo adalah hidangan khas dari Jawa Tengah. Ini adalah porsi nasi yang kecil namun lengkap, yang biasanya disajikan dengan lauk-pauk seperti ayam goreng, telur, sambal, dan tempe. Nasi Jinggo sangat populer di kawasan Jawa.',
         },
         {
-            title: 'Nasi Tepeng',
-            imageSrc: 'src/assets/culinary/nasitepeng.jpg',
-            description: 'Nasi Tepeng adalah hidangan khas Bali. Ini adalah nasi yang dimasak dengan cara khusus menggunakan wajan besi datar atau "tepengan." Nasi ini biasanya disajikan dengan lauk seperti ayam betutu atau bebek betutu dan memiliki cita rasa yang khas.',
+          title: 'Nasi Tepeng',
+          imageSrc: 'https://www.dapurkobe.co.id/wp-content/uploads/nasi-tepeng.jpg',
+          description:
+            'Nasi Tepeng adalah hidangan khas Bali. Ini adalah nasi yang dimasak dengan cara khusus menggunakan wajan besi datar atau "tepengan." Nasi ini biasanya disajikan dengan lauk seperti ayam betutu atau bebek betutu dan memiliki cita rasa yang khas.',
         },
         {
-            title: 'Sate Plecing',
-            imageSrc: 'src/assets/culinary/sateplecing.jpg',
-            description: 'Sate Plecing adalah hidangan sate khas Lombok. Sate ini disajikan dengan saus sambal plecing yang pedas dan segar. Daging sate biasanya terbuat dari daging ayam atau ikan. Sate Plecing adalah pilihan yang lezat bagi pecinta pedas.',
+          title: 'Sate Plecing',
+          imageSrc: 'https://www.kintamani.id/wp-content/uploads/Sate-Plecing-Khas-Bali-1-1024x768.jpg',
+          description:
+            'Sate Plecing adalah hidangan sate khas Lombok. Sate ini disajikan dengan saus sambal plecing yang pedas dan segar. Daging sate biasanya terbuat dari daging ayam atau ikan. Sate Plecing adalah pilihan yang lezat bagi pecinta pedas.',
         },
-        
-    ];
+      ];
 
     // Properti variants untuk animasi
     const itemVariants = {
@@ -57,7 +61,7 @@ const RecipeItems = () => {
         <>
             <div className="max-w-[1920px] m-auto w-full md:flex">
                 {cards.map((card, index) => (
-                    <motion.div key={index} variants={itemVariants} whileHover={{ scale: 1.1, cursor: 'pointer' }} onClick={() => setOpenCard(index)} className="relative p-4">
+                    <motion.div key={index} variants={itemVariants} whileHover={{ scale: 1.1, cursor: 'pointer' }} onClick={() => setOpenCard(index)} className="relative p-4"  style={{ width: '900px' }}>
 
                     {openCard === null && <h3 className="absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold text-center">{card.title}</h3>}
                     <img className="w-full h-full object-cover relative border-[3px] border-white shadow-lg rounded-sm" src={card.imageSrc} alt={card.title} />
