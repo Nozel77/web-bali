@@ -7,26 +7,26 @@ import 'aos/dist/aos.css';
 const Activities = () => {
   useEffect(() => {
     AOS.init({
-      duration: 500, // Durasi animasi AOS dalam milidetik
+      duration: 500,
     });
   }, []);
 
   const cards = [
     {
       title: 'history',
-      imageSrc: 'src/assets/sejarah.jpg',
+      imageSrc: 'https://imgsrv2.voi.id/A1qBG-ohkxBVRE2ybyh4kzlR8T6CpXHnpCqPR1NcWv8/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80MTA4OS8yMDIxMDMyNjIxNTUtbWFpbi5jcm9wcGVkXzE2MTY3NzA1NTIuanBlZw.jpg',
     },
     {
       title: 'culture',
-      imageSrc: 'src/assets/budaya.jpg',
+      imageSrc: 'https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-1998548741-18c4a8d5861ab4abc1c3974c05b6042d.jpg',
     },
     {
       title: 'culinary',
-      imageSrc: 'src/assets/kuliner.jpeg',
+      imageSrc: 'https://liburanbali.b-cdn.net/wp-content/uploads/2018/06/babi-guling.jpg',
     },
     {
       title: 'tour',
-      imageSrc: 'src/assets/wisata.jpg',
+      imageSrc: 'https://cdn-image.hipwee.com/wp-content/uploads/2020/11/hipwee-bali-indonesia-6-750x400.jpeg',
     },
     {
       title: 'economy',
@@ -67,7 +67,8 @@ const Activities = () => {
               onClick={() => setOpenCard(index)}
               className={`relative p-4`}
               data-aos="fade-up"
-              data-aos-delay={index * 100} // Setiap elemen akan memiliki delay 100ms lebih lama dari yang sebelumnya
+              data-aos-delay={index * 100}
+              style={{ width: '900px' }}
             >
               {openCard === null && <h3 className="absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">{card.title}</h3>}
               <img className="w-full h-full object-cover relative border-4 border-white shadow-lg rounded-sm" src={card.imageSrc} alt={card.title} />
