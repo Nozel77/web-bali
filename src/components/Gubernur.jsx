@@ -20,7 +20,7 @@ const Gubernur = () => {
           <div className="lg:flex lg-flex-row lg:my-9 lg:ml-40 lg:gap- ">
             <div>
               <img
-                src="src/assets/gubernur.jpeg"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a1/I_Wayan_Kostoer%2C_Gubernur_Bali.jpg"
                 alt=""
                 className="mx-auto mb-8 lg:flex lg:flex-row lg:w-64"
               />
