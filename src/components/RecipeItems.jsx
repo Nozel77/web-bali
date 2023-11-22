@@ -7,27 +7,27 @@ const RecipeItems = () => {
     const cards = [
         {
             title: 'Ayam Betutu',
-            imageSrc: 'src/assets/culinary/ayambetutu.jpg',
+            imageSrc: 'https://awsimages.detik.net.id/community/media/visual/2021/10/26/ayam-betutu_169.jpeg?w=1200',
             description: 'Ayam Betutu adalah hidangan tradisional Bali yang terkenal. Ayam ini dibumbui dengan rempah-rempah khas Bali dan kemudian dipanggang atau direbus hingga empuk. Rasa rempah-rempah yang kaya membuat Ayam Betutu menjadi hidangan yang lezat dan khas Bali.',
         },
         {
             title: 'Sate Lilit',
-            imageSrc: 'src/assets/culinary/satelilit.jpg',
+            imageSrc: 'https://nnc-media.netralnews.com/IMG-Netral-News-User-31-F2APLYDG1T.jpg',
             description: 'Sate Lilit adalah hidangan Bali yang unik. Daging, ikan, atau ayam cincang dicampur dengan kelapa parut, santan, dan rempah-rempah. Campuran ini lalu dibungkus di atas lidi atau batang serai, dan dipanggang hingga matang. Sate Lilit memiliki rasa yang khas dan tekstur yang lezat.',
         },
         {
             title: 'Nasi Jinggo',
-            imageSrc: 'src/assets/culinary/nasijinggo.jpg',
+            imageSrc: 'https://i.pinimg.com/originals/ce/7c/06/ce7c0665a46d63637c6798cf27faa30d.jpg',
             description: 'Nasi Jinggo adalah hidangan khas dari Jawa Tengah. Ini adalah porsi nasi yang kecil namun lengkap, yang biasanya disajikan dengan lauk-pauk seperti ayam goreng, telur, sambal, dan tempe. Nasi Jinggo sangat populer di kawasan Jawa.',
         },
         {
             title: 'Nasi Tepeng',
-            imageSrc: 'src/assets/culinary/nasitepeng.jpg',
+            imageSrc: 'https://www.dapurkobe.co.id/wp-content/uploads/nasi-tepeng.jpg',
             description: 'Nasi Tepeng adalah hidangan khas Bali. Ini adalah nasi yang dimasak dengan cara khusus menggunakan wajan besi datar atau "tepengan." Nasi ini biasanya disajikan dengan lauk seperti ayam betutu atau bebek betutu dan memiliki cita rasa yang khas.',
         },
         {
             title: 'Sate Plecing',
-            imageSrc: 'src/assets/culinary/sateplecing.jpg',
+            imageSrc: 'https://i0.wp.com/img-global.cpcdn.com/recipes/29427ed22039f0e9/1600x840cq70/photo.webp',
             description: 'Sate Plecing adalah hidangan sate khas Lombok. Sate ini disajikan dengan saus sambal plecing yang pedas dan segar. Daging sate biasanya terbuat dari daging ayam atau ikan. Sate Plecing adalah pilihan yang lezat bagi pecinta pedas.',
         },
         
