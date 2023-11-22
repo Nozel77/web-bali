@@ -14,7 +14,7 @@ const Budaya = () => {
     <div className="bg-white">
       <img
         className="h-96 w-screen object-cover "
-        src="src/assets/kecak.jpg"
+        src="https://cdn.pixabay.com/photo/2022/05/14/12/10/temple-7195534_1280.jpg"
       />
       <div className="w-4/5 m-auto">
         <div className="w-full xl:w-1/2 m-auto text-center my-10 space-y-5">
