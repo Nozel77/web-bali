@@ -14,7 +14,7 @@ const Header = ({ title, image, type }) => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         setImageOpacity(1);
       }, 700); // Change the image after fade-out (0.5 seconds)
-    }, 5000);
+    }, 2);
 
     return () => clearInterval(intervalId); // Cleanup the interval on unmount
   }, []);

@@ -28,7 +28,7 @@ const Wisata = () => {
           <div className="row-span-1 col-span-2">
             <img
               className="w-full h-full object-cover rounded-md"
-              src="https://bafageh.com/uploads/images/blog/816432_bali-indonesia-2.jpg"
+              src="https://southeastasiabackpacker.com/wp-content/uploads/2022/10/Bali-dance.jpg"
               alt=""
             />
           </div>
@@ -109,7 +109,6 @@ const Wisata = () => {
                   <p className="mb-2">
                   Gunung Batur adalah gunung berapi aktif yang terletak di Kabupaten Bangli, Bali, Indonesia. Gunung ini memiliki ketinggian 1.717 meter di atas permukaan laut dan merupakan gunung berapi aktif terkecil di Bali.Gunung Batur memiliki kaldera yang luas, dengan diameter sekitar 10 kilometer. Di dalam kaldera tersebut terdapat Danau Batur, yang merupakan danau kaldera terbesar di Bali. Danau ini memiliki kedalaman sekitar 230 meter dan memiliki air yang berwarna biru jernih.
                   </p>
-                  
                 </div>
               </div>
             </div>

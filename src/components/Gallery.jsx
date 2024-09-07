@@ -65,6 +65,7 @@ const Gallery = () => {
           }
         ]
       };
+
   return (
     <div id="gallery" className="max-w-[1140px] m-auto w-full px-4 py-16">
       <h2 className="text-center text-gray-700 p-4">Gallery</h2>
@@ -72,7 +73,7 @@ const Gallery = () => {
           <div className="flex flex-col gap-4 ">
             <Slider {...settings}>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://www.goodnewsfromindonesia.id/uploads/post/large-balinese-people-traditional-clothes-during-religious-ceremony-pura-taman-ayun-temple-.jpg" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/bisnisbandung/2022/02/2-4.jpg" alt="/" />
             </div>
             <div>
               <img className="w-full h-full object-cover p-2" src="https://cdn.antaranews.com/cache/1200x800/2022/01/04/Barong-Bali-Unjuk-Gigi-ke-Pengunjung-Expo-2020-Dubai-di-Paviliun-ASEAN.jpg" alt="/" />
@@ -81,7 +82,7 @@ const Gallery = () => {
               <img className="w-full h-full object-cover p-2" src="https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/kenali-warisan-budaya-asli-bali-dengan-berkunjung-ke-desa-ini/ukiran.jpg" alt="/" />
             </div>
             <div>
-              <img className="w-full h-full object-cover p-2" src="https://bafageh.com/uploads/images/blog/79589_tirta.png" alt="/" />
+              <img className="w-full h-full object-cover p-2" src="https://southeastasiabackpacker.com/wp-content/uploads/2022/10/Bali-dance.jpg" alt="/" />
             </div>
             <div>
               <img className="w-full h-full object-cover p-2" src="https://markastravel.com/wp-content/uploads/2023/03/wisata-budaya-Bali.jpg" alt="/" />

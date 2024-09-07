@@ -18,7 +18,7 @@ const Activities = () => {
     },
     {
       title: 'culture',
-      imageSrc: 'https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-1998548741-18c4a8d5861ab4abc1c3974c05b6042d.jpg',
+      imageSrc: 'https://southeastasiabackpacker.com/wp-content/uploads/2022/10/Bali-dance.jpg',
     },
     {
       title: 'culinary',
@@ -30,7 +30,7 @@ const Activities = () => {
     },
     {
       title: 'economy',
-      imageSrc: 'https://bisnisbali.com/wp-content/uploads/2020/11/dik-foto-catatan-kaki.jpg',
+      imageSrc: 'https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/bisnisbandung/2022/02/2-4.jpg',
     },
   ];
 
